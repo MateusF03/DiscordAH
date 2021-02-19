@@ -35,7 +35,7 @@ public class GameManager {
             return;
         }
         Stream<User> userStream = users.stream();
-        if (userStream.anyMatch(u -> u.isBot() || u.getIdLong() == jda.getSelfUser().getIdLong())) {
+        if (userStream.anyMatch(u -> u.isBot())) {
             channel.sendMessage("**You can't play with bots**").queue();
             return;
         }
