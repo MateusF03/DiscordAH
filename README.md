@@ -1,5 +1,5 @@
 # DiscordAH
-A simple Cards Agains't Humanity Discord bot
+A simple Cards Against Humanity Discord bot
 
 ## Compiling
 To compile the bot, you will need to have [Gradle](https://gradle.org/), after that, clone the repository and go in the created directory.
